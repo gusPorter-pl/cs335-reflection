@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <title>COVID-19 Tracker - NZ</title>
+      <meta charset="UTF-8" />
+      <link rel="stylesheet" href="apor417.css" type="text/css" />
+      <script src="apor417.js" defer="true"></script>
+   </head>
+   <body style="text-align: center">
+      <header>
+         <h1>The Coronavirus Pandemic in New Zealand</h1>
+         <div style="flex-direction: row">
+            <button onclick="getData('new_daily_cases')">Daily Cases</button>
+            <button onclick="getData('new_daily_deaths')">Daily Deaths</button>
+            <button onclick="getData('new_daily')">Daily Both</button>
+            <button onclick="getData('total_cases')">Total Cases</button>
+            <button onclick="getData('total_deaths')">Total Deaths</button>
+            <button onclick="getData('total')">Total Both</button>
+         </div>
+      </header>
+      <div>
+         <h2 id="case-header"></h2>
+         <div id="case-div" style="flex-direction: row"></div>
+      </div>
+   </body>
+</html>
