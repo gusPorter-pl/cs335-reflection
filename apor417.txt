@@ -1,0 +1,7 @@
+I utilised the daily cases and deaths, and total cases and deaths to try and provide as much information that people could want. I would have loved to have had an active cases section (as this is what I looked at the most over lockdown), by using the total cases minus the recovered cases, but the recovered cases was not kept up to date on the endpoint, so I could not use this.
+
+I added a page that showed both the daily cases and deaths and a page for total cases and deaths, with the deaths overlapping the cases. This provides a good comparison of the death per infection rate in New Zealand without the scale changing too much to make it unreadable.
+
+I made the home page the daily cases, as this is the go-to information that anyone is looking for when opening up a data site about covid-19.
+
+I added the months at the bottom of all pages, to show a timeline of where we are at. It also makes it easier to see when certain outbreaks occurred. Also on the left I displayed the peak case number, and 0.
